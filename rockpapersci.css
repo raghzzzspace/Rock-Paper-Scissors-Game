@@ -1,0 +1,76 @@
+.bluebox
+{
+    height:80px;
+    background-color: darkblue;
+    
+}
+.heading
+{
+    color: white;
+    text-align: center;
+    padding:15px;
+}
+
+.choices
+{
+    display: flex;
+    justify-content: space-around;
+
+}
+.choice
+{
+    margin-top: 40px;
+    border:5px solid blue;
+    height:180px;
+    width:180px;
+    border-radius: 50%;
+}
+img
+{
+    height:180px;
+    width:180px;
+    border-radius: 50%;
+}
+.choice:hover{
+    opacity:0.5;
+    border-radius: 50%;
+    border:5px solid rgb(255, 0, 0);
+}
+.scoreboard
+{
+    display: flex;
+    justify-content: center;
+    
+}
+.score
+{
+    padding-top: 80px;
+    padding:40px;
+    font-size: large;
+}
+
+#msg
+{
+    text-align: center;
+    background-color: aqua;
+    height:30px;
+    width:220px;
+    padding:20px;
+    border-radius: 1rem;
+    border:2px solid darkblue;
+    font-size: larger;
+    display: inline;
+}
+.message
+{
+    
+    display: flex;
+    justify-content: center;
+}
+
+#msg:hover
+{
+    background-color: rgb(235, 159, 19);
+    border: 2px solid red;
+    border-radius: 1rem;
+}
